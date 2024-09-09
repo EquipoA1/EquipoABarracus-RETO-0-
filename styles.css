@@ -24,7 +24,7 @@ p {
 
 /* Header Styles */
 header {
-    background-color: #4A90E2;
+    background-color: #f44;
     color: white;
     padding: 50px 0;
     text-align: center;
@@ -74,7 +74,7 @@ header p {
 
 .team-member h3 {
     font-size: 1.8rem;
-    color: #4A90E2;
+    color: #f44;
     font-weight: 600;
 }
 
