@@ -53,12 +53,14 @@ header .header-content {
     text-align: left; /* Alinea el texto a la izquierda */
     flex: 1; /* Ocupa el máximo espacio disponible */
     text-align: center;
+    animation: slideInFromLeft 1s ease-out;
 }
 
 header img {
     width: 20%;
     margin-left: auto; /* Empuja la imagen a la derecha */
     margin-right: 15%;
+    animation: slideInFromRight 1s ease-out;
 }
 
 /* Team Section */
@@ -139,4 +141,25 @@ img {
     margin: auto;
     width: 80%;
     display: block;
+}
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
