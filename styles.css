@@ -40,6 +40,27 @@ header p {
     font-weight: 300;
 }
 
+header {
+    background-color: #f44;
+    color: white;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+header .header-content {
+    text-align: left; /* Alinea el texto a la izquierda */
+    flex: 1; /* Ocupa el máximo espacio disponible */
+    text-align: center;
+}
+
+header img {
+    width: 20%;
+    margin-left: auto; /* Empuja la imagen a la derecha */
+    margin-right: 15%;
+}
+
 /* Team Section */
 .team-section {
     padding: 60px 0;
